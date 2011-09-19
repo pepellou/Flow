@@ -1,0 +1,53 @@
+body {
+	margin: auto;
+	width: 900px;
+	font-family: Arial;
+	font-size: 20px;
+	background: #fff;
+}
+
+b {
+	color: #811;
+}
+
+a {
+	text-decoration: none;
+	color: #00f;
+}
+
+a:hover {
+	color: #338;
+	text-decoration: underline;
+}
+
+a:focus {
+	outline: none;
+}
+
+div {
+	float: left;
+	padding: 5px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+#title {
+	font-size: 20px;
+	width: 900px;
+	padding: 0;
+	height: 200px;
+	margin-top: 15px;
+}
+
+#what {
+	width: 440px;
+	height: 220px;
+	text-align: justify;
+}
+
+#humanstxt {
+	float: right;
+}
+

@@ -12,6 +12,6 @@
 
 /* SITE */
 	Last update: 2011/09/19
-	Language: Castellano
+	Language: English
 	Doctype: HTML
 	IDE: vi
