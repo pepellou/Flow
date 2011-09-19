@@ -1,0 +1,17 @@
+/* TEAM */
+	Non-Standard Woman: Marnie
+	Twitter: @MarnieMania
+	From: Valencia, Spain
+	Works for: BeCode
+
+	Standard Man: Pepe Doval Gonzalez
+	Twitter: @pepellou
+	From: Santiago de Compostela, Galicia, Spain
+	Works for: Agil-AZ S.L.
+
+
+/* SITE */
+	Last update: 2011/09/19
+	Language: Castellano
+	Doctype: HTML
+	IDE: vi
