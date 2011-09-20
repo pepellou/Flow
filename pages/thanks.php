@@ -1,6 +1,6 @@
 <?php
 	$log = fopen(dirname(__FILE__)."/../log/requirements.log", 'a');
-	fwrite($log, "{$_GET['who']}\n{$_GET['wish']}\n{$_GET['purpose']}\n");
+	fwrite($log, "{$_GET['who']}|{$_GET['wish']}|{$_GET['purpose']}\n");
 	fclose($log);
 ?>
 <h2>Thanks</h2>
