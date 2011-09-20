@@ -1,8 +1,8 @@
 body {
 	margin: auto;
-	width: 900px;
+	width: 100%;
 	font-family: Arial;
-	font-size: 24px;
+	font-size: 2em;
 	background: #fff;
 }
 
@@ -30,23 +30,22 @@ img {
 
 div {
 	float: left;
-	padding: 5px;
+	padding: 0;
 }
 
 h1 {
-	font-size: 70px;
-	line-height: 100px;
-	margin: 0;
+	font-size: 5em;
+	margin: 0.2em 0 0.2em 1em;
 }
 
 h2 {
-	font-size: 30px;
+	font-size: 3em;
+	margin: 1em 0 0.2em 3em;
 }
 
 #title {
-	width: 840px;
-	padding: 0 30px;
-	height: 100px;
+	width: 100%;
+	padding: 0;
 	background-color: #333;
 	color: #fff;
 }
@@ -56,13 +55,23 @@ h2 {
 }
 
 #content {
-	width: 798px;
+	width: 100%;
 	text-align: justify;
-	border: 1px solid #333;
-	padding: 5px 50px;
+	padding: 0;
 }
 
 #humanstxt {
 	float: right;
 }
 
+table {
+	width: 100%;
+}
+
+table tr td {
+	text-align: center;
+}
+
+table tr td img {
+	width: 100%;
+}
