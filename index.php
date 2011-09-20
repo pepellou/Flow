@@ -21,14 +21,6 @@
 			<h1><a href=?page=home>Flow</a></h1>
 		</div>
 		<div id=content>
-			<div id=humanstxt>
-				<a href=humans.txt>
-					<img width="88" 
-						height="31" 
-						alt="Humans.txt" 
-						src="http://humanstxt.org/img/oficial-logos/humanstxt-isolated-blank.gif">
-				</a>
-			</div>
 			<?php 
 				$page = (isset($_GET['page'])
 					? $_GET['page']
@@ -36,6 +28,12 @@
 				);
 				include("pages/$page.php");
 			?>
+		</div>
+		<div id=humanstxt>
+			<a href=humans.txt>
+				<img alt="Humans.txt" width=100%
+					src="http://humanstxt.org/img/oficial-logos/humanstxt-isolated-blank.gif">
+			</a>
 		</div>
 	</body>
 </html>
