@@ -7,6 +7,6 @@
 		<input type=submit value=send></input>
 		<input type=hidden name=page value=thanks></input>
 		<input type=hidden name=who value=<?php echo $_GET['who']; ?>></input>
-		<br/> <br/> <br/>
+		<br/> 
 	</form>
 </center>
