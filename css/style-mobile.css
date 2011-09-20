@@ -15,11 +15,6 @@ a {
 	color: #00f;
 }
 
-a:hover {
-	color: #338;
-	text-decoration: underline;
-}
-
 a:focus {
 	outline: none;
 }
