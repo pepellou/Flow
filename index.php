@@ -17,24 +17,26 @@
 		<link rel="icon" type="image/gif" href="favicon.gif" />
 	</head>
 	<body>
-		<div id=humanstxt>
-			<a href=humans.txt>
-				<img width="88" 
-					height="31" 
-					alt="Humans.txt" 
-					src="http://humanstxt.org/img/oficial-logos/humanstxt-isolated-blank.gif">
-			</a>
-		</div>
 		<div id=title>
-			<a href=?page=home><h1>Flow</h1></a>
+			<h1>Flow</h1>
 		</div>
-		<?php 
-			$page = (isset($_GET['page'])
-				? $_GET['page']
-				: 'home'
-			);
-			include("pages/$page.php");
-		?>
+		<div id=content>
+			<div id=humanstxt>
+				<a href=humans.txt>
+					<img width="88" 
+						height="31" 
+						alt="Humans.txt" 
+						src="http://humanstxt.org/img/oficial-logos/humanstxt-isolated-blank.gif">
+				</a>
+			</div>
+			<?php 
+				$page = (isset($_GET['page'])
+					? $_GET['page']
+					: 'home'
+				);
+				include("pages/$page.php");
+			?>
+		</div>
 	</body>
 </html>
 

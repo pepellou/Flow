@@ -24,9 +24,19 @@ a:focus {
 	outline: none;
 }
 
+img {
+	border: none;
+}
+
 div {
 	float: left;
 	padding: 5px;
+}
+
+h1 {
+	font-size: 70px;
+	line-height: 100px;
+	margin: 0;
 }
 
 h2 {
@@ -34,17 +44,17 @@ h2 {
 }
 
 #title {
-	font-size: 20px;
-	width: 900px;
-	padding: 0;
-	height: 200px;
-	margin-top: 15px;
+	width: 840px;
+	padding: 0 30px;
+	height: 100px;
+	background-color: #333;
+	color: #fff;
 }
 
-#what {
-	width: 440px;
-	height: 220px;
+#content {
+	width: 888px;
 	text-align: justify;
+	border: 1px solid #333;
 }
 
 #humanstxt {
