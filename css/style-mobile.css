@@ -64,9 +64,10 @@ h2 {
 }
 
 #humanstxt {
-	float: left;
+	float: center;
 	width: 100%;
-	border-top: 1px solid #333;
+	border-top: 5px solid #333;
+	text-align: center;
 }
 
 table {

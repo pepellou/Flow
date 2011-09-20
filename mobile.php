@@ -26,10 +26,11 @@
 				);
 				include("pages/$page.php");
 			?>
+			<h2>&nbsp;</h2>
 		</div>
 		<div id=humanstxt>
 			<a href=humans.txt>
-				<img alt="Humans.txt" width=100%
+				<img alt="Humans.txt" width=60%
 					src="http://humanstxt.org/img/oficial-logos/humanstxt-isolated-blank.gif">
 			</a>
 		</div>
