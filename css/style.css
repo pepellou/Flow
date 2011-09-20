@@ -51,6 +51,10 @@ h2 {
 	color: #fff;
 }
 
+#title a {
+	color: #fff;
+}
+
 #content {
 	width: 798px;
 	text-align: justify;

@@ -18,7 +18,7 @@
 	</head>
 	<body>
 		<div id=title>
-			<h1>Flow</h1>
+			<h1><a href=?page=home>Flow</a></h1>
 		</div>
 		<div id=content>
 			<div id=humanstxt>
